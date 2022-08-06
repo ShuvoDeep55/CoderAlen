@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* ----------------------------------header Section Start---------------------------------- */
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Image/head-background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 40%;
+    padding: 25px 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.logo span{
+    color: orange;
+}
+nav{
+    display: flex;
+}
+.menu ul li{
+    padding: 50px 0;
+    display: inline-block;
+    list-style: none
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.menu ul li a:hover{
+    color: deeppink;
+}
+.sub-header{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 45px;
+    color: #fff;
+}
+.sub-header span{
+    color: #00cec9;
+}
+.btn{
+    display: flex;
+    margin: 0px 43%;
+    padding: 15px 30px;
+    border: 2px solid white;
+    background: deeppink;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: .5s;
+}
+.btn:hover{
+    background: #00cec9;
+}
+/* ----------------------------------header Section End---------------------------------- */
+.courses{
+    padding: 20px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.courses-header{
+    padding: 20px 30px;
+    font-size: 25px;
+    color: indigo;
+}
+.courses-header span{
+    color: #00cec9;
+    font-family: 'Abel', sans-serif;
+}
+.courses-sub-para{
+    width: 45%;
+    padding: 0px 30px;
+    font-size: 16px;
+}
+.btn-2{
+    margin: 10px 5px;
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    background: #00cec9;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+.courses-img img{
+    float: right;
+    margin-right: 10px;
+    width: 50%;
+    height: 500px;
+}
+/* -----------------------Courses Menu End----------------------- */
+.pages{
+
+    min-height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-container {
+  background-color: #231E39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  float: left;
+  margin: 0 35px;
+}
+
+.card-container .pro {
+  color: #231E39;
+  background-color: #FEBB0B;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.card-container .round {
+  border: 1px solid #03BFCB;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+button.primary {
+  background-color: #03BFCB;
+  border: 1px solid #03BFCB;
+  border-radius: 3px;
+  color: #231E39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899C;
+}
+
+.skills {
+  background-color: #1F1A36;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+.page-header h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: mediumspringgreen;
+}
+.page-header h2 span{
+    color: crimson;
+}
+
