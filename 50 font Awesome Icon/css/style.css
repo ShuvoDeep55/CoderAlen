@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+tr,th,td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 10px;
+    border: none;
+    
+}
+tr:nth-child(even) {
+    background: lightgray;
+}
+th{
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+}
