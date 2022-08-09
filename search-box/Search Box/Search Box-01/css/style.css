@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.search-box{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background: yellow;
+    padding: 10px;
+    border-radius: 35px;
+}
+.search-txt{
+    background: none;
+    border: none;
+    outline: none;
+    width: 0;
+    padding: 0 7px;
+    transition: 0.5s;
+}
+.search-txt::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.search-box>.search-txt:hover{
+    width: 200px;
+}
+/* -------------------First Search Box Complete----------------------------- */
+/* ---------------------second search box start------------------------------- */
+.search-box-02{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: deeppink;
+    border-radius: 35px;
+    padding: 8px 0;
+}
+.search-txt-02{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0 7px;
+}
+.search-txt-02::placeholder{
+    color: white;
+}
+.search-btn-02{
+    background: white;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+/* ---------------------second search box end------------------------------- */
+/* ------------------------------Third search Box start--------------------------- */
+.search-box-03{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background: blue;
+    padding: 10px;
+    border-radius: px;
+}
+.search-txt-03{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.search-txt-03::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.search-btn-03{
+    color: white;
+}
+/* ------------------------------Third search Box End--------------------------- */
+/* ------------------------------Fourth search Box start--------------------------- */
+.search-box-04{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: red;
+    padding: 10px;
+}
+.search-txt-04{
+    background: none;
+    outline: none;
+    border: none;
+}
+.search-txt-04::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.search-btn-04{
+    color: white;
+    border: 2px solid white;
+    padding: 4px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    background: blue;
+}
+.search-btn-04 {
+    text-decoration: none;
+}
+/* ------------------------------Fourth search Box end--------------------------- */
+/* -------------------------Fifth search box start------------------------- */
+.search-box-05{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background: #00cec9;
+    padding: 10px;
+}
+.search-txt-05{
+    background: none;
+    outline: none;
+    border: none;
+}
+.search-txt-05::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.search-btn-05{
+    color: white;
+    border: 2px solid white;
+    padding: 4px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: blue;
+    border-radius: 35px;
+}
+.search-btn-05 {
+    text-decoration: none;
+}
