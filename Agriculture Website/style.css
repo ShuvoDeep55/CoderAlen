@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(/blob-02.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+.navbar ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: orangered;
+}
+.logo{
+    padding: 20px 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logo span{
+    color: blue;
+}
+.dropdown-menu{
+    display: none;
+}
+.dropdown-menu ul{
+    top: 2px;
+    display: block;
+    position: absolute;
+    text-align: left;
+    /* background: lightgray; */
+    min-width: 100px;
+    line-height: 30px;
+}
+.navbar ul li:hover .dropdown-menu{
+    display: block;
+}
+.header-txt{
+    width: 40%;
+    margin-top: 140px;
+    margin-left: 14%;
+    font-size: 70px;
+}
+.header-txt span{
+    color: lime;
+}
+.header-btn{
+    margin: 10px 14%; 
+}
+.btn-1{
+    padding: 5px 15px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(#662D8C,#ED1E79);
+    border: 1px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-2{
+    padding: 5px 15px;
+    margin: 0 5px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(#009245,#FCEE21);
+    border: 1px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.h-txt{
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin: 30px;
+}
+.h-txt{
+    border-radius: 20px;
+}
+/* -----------------------------------------Section 02---------------------------------- */
+.Section-02{
+    width: 100%;
+    background: url(/blob-scatter-haikei.png);
+    height: 110vh;
+    background-position: center;
+}
+.about{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    color: white;
+}
+.sec-head-txt{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 65%;
+    font-size: 40px;
+}
+.sec-p-txt{
+    width: 50%;
+    float: right;
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+}
+.sec-img{
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+}
+.sec-02-btn{
+   float: right;
+   margin-right: 41%;
+   margin-top: -44px;
+   padding: 7px 20px;
+   text-transform: uppercase;
+   background: transparent;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.sec-02-btn:hover{
+    background: deeppink;
+    color: white;
+    border: none;
+}
+/* ---------------------------------section 03---------------------------------- */
+.sec-03{
+    width: 100%;
+    height: 160vh;
+}
+.Blog{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    color: white;
+    margin-top: -20px;
+}
+.sec-3-img01{
+    width: 100%;
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-right: 19px
+}
+.sec-3-img02{
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-top: 33%;
+    margin-right: -597px;
+}
+.maga-01 img{
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.container{
+    width: 300px;
+    display: flex;
+
+}
+.container img{
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.maga-head{
+    padding: 20px;
+    font-size: 25px;
+    color: deeppink;
+}
+
+.list img{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+.list p span{
+    font-weight: bolder;
+    color: green;
+}
+.list p{
+    color: grey;
+}
+/* -------------------------------------------------------------------- */
+.portfolio{
+    width: 100%;
+    height: 158vh;
+}
+.portfolio-head{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    color: white;
+}
+.portfolio-img{
+    border-radius: 10px;
+}
+.portfolio-img img{
+    float: left;
+    margin: 20px 59px;
+    width: 550px;
+    height: 400px;
+    margin-left: 22px;
+    border-radius: 25px;
+}
+/* --------------------------------------------------------------------- */
+.conntact{
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+.container{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.contact-us{
+    margin-top: 20px;
+}
+.contact-us h3{
+    color: deeppink;
+}
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form h3{
+    color: deepskyblue;
+}
+.contact-form input{
+    padding: 8px 20px;
+    font-weight: bold;
+    margin: 8px;
+}
+.contact-form .btn{
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+.follow-btn{
+    margin-top: 20px;
+}
+.follow-btn h3{
+    color: greenyellow;
+}
