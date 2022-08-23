@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: relative;
+}
+.navbar ul{
+    float: right;
+    margin-right: 5%;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    padding: 15px;
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    max-width: 100%;
+    top: 20%;
+    right: 45%;
+}
+.logo img{
+    width: 272px;
+    height: 92px;
+}
+.search{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.search-btn{
+    box-shadow: 2px 5px lightgray;
+    border: 1px solid gray;
+    outline: none;
+    width: 35%;
+    border-radius: 20px;
+    padding: 12px 130px;
+}
+.btn-01{
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    padding: 5px 10px;
+    border: none;
+}
+.btn-02{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    padding: 5px 10px;
+    border: none;
+}
+.p-text{
+    width: 50%;
+    position: absolute;
+    top: 59%;
+    left: 38%;
+}
+.p-text a{
+    text-decoration: none;
+}
