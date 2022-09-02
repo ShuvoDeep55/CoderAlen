@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    width: 100%;
+    height: 130vh;
+}
+.container{
+    display: flex;
+    padding: 40px;
+}
+.container nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.container nav ul li a:hover{
+    color: tomato;
+}
+.logo h2{
+    font-size: 40px;
+    color: tomato;
+}
+.social-icon{
+    position: absolute;
+    width: 20%;
+    left: 80%;
+    top: 43px;
+    padding: 0 20px;
+}
+.social-icon .logo-icon{
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.lets-talk{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.lets-talk a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 6px 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.lets-talk a:hover{
+    border: rgb(61,236,0);
+    background: blue;
+    color: white;
+}
+.intoduction-sec{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 40%;
+    float: left;
+}
+.intoduction-sec img{
+    width: 500px;
+    height: 500px;
+    margin-left: 130%;
+    float: left;
+    border-radius: 10px;
+}
+.card{
+    position: absolute;
+    margin-top: 40px;
+}
+.card h5{
+    margin-bottom: 40px;
+    color: tomato;
+}
+.card h5::before{
+    content: '_______';
+}
+.card h1{
+    font-size: 60px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-bottom: 10px;
+}
+.card .join-btn{
+    position: absolute;
+    margin-top: 40px;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 8px 15px;
+    color: blue;
+    font-weight: bold;
+}
+.card .join-btn:hover{
+    background: black;
+    color: white;
+    border: none;
+}
+/* --------------------------------------------------------------------- */
+
+.Count-secion{
+    background: #d1ccc0;
+    height: 30vh;
+}
+.container-02{
+    padding: 40px 0;
+    margin-left: 20%;
+    background: #d1ccc0;
+}
+.card-02{
+    float: left;
+    margin-left: 10%;
+}
+.card-02 p{
+    font-size: 10px;
+    color: indigo;
+    font-size: bold;
+}
+.card-02 h1{
+    font-size: 30px;
+}
+.card-02 .count-icon{
+    font-size: 40px;
+}
+/* ---------------------------------------------------------------------- */
+.logo-02{
+    width: 100%;
+    height: 35vh;
+}
+.logo-02 h5{
+    text-align: center;
+    padding-top: 40px;
+    color: tomato;
+}
+.container .img-content img{
+    padding: 0 75px;
+}
+/* -------------------------------------------------------------------------- */
+.review{
+    width: 100%;
+    height: 120vh;
+}
+.review-header{
+    width: 50%;
+    padding: 20px;
+    font-size: 40px;
+}
+.review-btn{
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 2px solid indigo;
+    padding: 7px 25px;
+    margin-top: -43px;
+    letter-spacing: 2px;
+}
+.review-btn:hover{
+    background: indigo;
+    color: white;
+    font-size: bold;
+    border: none;
+}
+.review-card{
+    width: 32%;
+    margin-top: 20px;
+    margin: auto;
+}
+.review-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.review-card h2{
+    margin-bottom: 10px;
+}
+.review-card p{
+    margin-bottom: 20px;
+    color: dimgray;
+}
+.card-btn{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: tomato;
+    font-weight: bold;
+}
+.card-btn:hover{
+    color: black;
+}
+.card-btn .card-btn-icon{
+   position: absolute;
+   left: 10%;
+   margin-top: 4px;
+   font-size: 15px;
+}
+/* -------------------------------------------------------------------------------- */
+.res-header{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+#resturent-card .res-para{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+/* ----------------------------------------------------------------------------- */
+#mailing{
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+}
+#mailing .container{
+    width: 90%;
+    height: 80%;
+    border: 5px solid black;
+    margin: 20px auto;
+}
+.container .content img{
+    width: 400px;
+    height: 450px;
+    margin-top: -100px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 15px gray;
+}
+
+.content-02{
+    margin: 30px;
+}
+.content-02 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content-02 p{
+    margin-bottom: 40px;
+    color: gray;
+}
+.content-02 input{
+    padding: 10px 30px;
+    background: rgb(232, 223, 223);
+   border: none;
+   outline: none;
+}
+.content-02 input::placeholder{
+    color: blueviolet;
+    font-size: 15px;
+}
+.content-02 a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 12px;
+    color: tomato;
+    font-weight: bolder;
+}
+/* --------------------------------------------------------------------------------------- */
+#last-part{
+    width: 100%;
+    height: 20vh;
+    background: #fffa65;
+}
+#last-part .footer-para{
+    text-align: center;
+   padding-top: 40px;
+   font-weight: bold;
+}
